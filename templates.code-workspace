@@ -52,7 +52,8 @@
 
 		"[javascript|javascriptreact|typescript|typescriptreact]": {
 			"editor.defaultFormatter": "biomejs.biome"
-		}
+		},
+		"css.customData": ["./css_custom_data.json"]
 	},
 	"extensions": {
 		"recommendations": [
