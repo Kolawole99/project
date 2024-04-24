@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"name": "project",
+			"path": "."
+		},
+		{
+			"name": "Next.js",
+			"path": "../next-template"
+		},
+		{
+			"name": "React.js",
+			"path": "../react-template"
+		},
+		{
+			"name": "Bun TS Server",
+			"path": "../js-backend"
+		}
+	],
+	"settings": {
+		// VSCode Extensions
+		"cSpell.words": [
+			"biomejs",
+			"bunx",
+			"datetime",
+			"hono",
+			"Kolawole",
+			"outdir",
+			"pino",
+		],
+		"githubPullRequests.pullBranch": "never",
+		"go.lintTool": "golangci-lint",
+		"go.lintFlags": ["--fast"],
+
+		// VSCode
+		"window.zoomLevel": -2,
+		
+		"workbench.sideBar.location": "right",
+		"workbench.colorTheme": "Tomorrow Night Blue",
+
+		"files.autoSave": "onFocusChange",
+		"files.associations": {
+			".dev.vars": "properties"
+		},
+
+		"editor.guides.bracketPairs": true,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"quickfix.biome": "explicit",
+			"source.organizeImports.biome": "explicit"
+		},
+
+		"[javascript|javascriptreact|typescript|typescriptreact]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"biomejs.biome",
+			"streetsidesoftware.code-spell-checker",
+			"mhutchie.git-graph",
+			"github.vscode-github-actions",
+			"github.vscode-pull-request-github",
+			"eamodio.gitlens",
+			"alexcvzz.vscode-sqlite",
+			"wakatime.vscode-wakatime"
+		]
+	}
+}
